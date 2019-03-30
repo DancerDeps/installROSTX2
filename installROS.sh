@@ -77,12 +77,12 @@ fi
 
 # Let's start installing!
 
-tput setaf 2
-echo "Adding repository and source list"
-tput sgr0
-sudo apt-add-repository universe
-sudo apt-add-repository multiverse
-sudo apt-add-repository restricted
+# tput setaf 2
+# echo "Adding repository and source list "
+# tput sgr0
+# sudo apt-add-repository universe
+# sudo apt-add-repository multiverse
+# sudo apt-add-repository restricted
 
 # Setup sources.lst
 sudo sh -c 'echo "deb http://mirrors.ustc.edu.cn/ros/ubuntu/ $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
